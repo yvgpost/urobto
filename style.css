@@ -1,6 +1,6 @@
 html, body {
   box-sizing: border-box;
-  font-family: 'Arial Black';
+  font-family: 'Outfit';
   margin: 0;
   scroll-behavior: smooth;
 }
@@ -40,7 +40,7 @@ a, img, button {
 .logo-section {
   display: flex;
   width: 100%;
-  padding: 0.5rem 0 0.5rem 0;
+  padding: 0.6rem 0 0.6rem 0;
 }
 .menu-section {
   display: flex;
@@ -131,7 +131,6 @@ video {
     font-size: 1.3rem;
     margin: 0;
     font-weight: bold;
-    color: rgb(4, 35, 99);
 }
 .contracting-container {
   display: grid;
@@ -139,7 +138,7 @@ video {
   grid-template-rows: auto;
   box-shadow: 2px 2px 5px 0 rgba(0,0,0,.3);
   border-radius: 0.5rem;
-  background-color: #74A8DA;
+  background-color: #FFEB09;
   box-sizing: border-box;
 }
 .contracting-container img {
@@ -160,7 +159,7 @@ video {
     text-align: justify;
     height: auto;
     font-weight: 300;
-    color: white;
+    
 } 
 .contracting-form {
   display: flex;
