@@ -11,8 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=M+PLUS+Rounded+1c&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-    <title>Donite</title>
-    <link rel="icon" type="image/x-icon" href="img/favicon.svg">
+    <title>UROBTO s.r.o.</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
   </head>
   <body>
     <div class="header">
@@ -23,29 +23,19 @@
         <div class="menu-lang">
           <div class="menu-section">
             <a onclick="topFunction()" id="myBtnUp">ÚVOD</a>
-            <a onclick="window.open('store.html','_top' ); return false;">NAŠE SLUŽBY</a>
-            <a onclick="downFunction()">OBJEDNAT ÚKLID</a>
+            <a onclick="window.open('index.html#ourservices','_top' ); return false;">NAŠE SLUŽBY</a>
+            <a onclick="window.open('index.html#price','_top' ); return false;">CENÍK</a>
+            <a onclick="window.open('index.html#order','_top' ); return false;">OBJEDNAT ÚKLID</a>
             <a onclick="downFunction()">KONTAKTY</a>
           </div>
-             
         </div>
         <div class="menu-lang-mobile" id="menuLang">
           <div class="menu-section-mobile">
-            <a onclick="topFunction(); myFunction(); toggleHamburger();" id="myBtnUp">Domů</a>
-            <a onclick="window.open('store.html','_top' ); return false;">Prodej výrobků</a>
-            <a class="subcategory" onclick="window.open('store.html#cleaning','_top' ); return false;">Čisticí prostředky</a>
-            <a class="subcategory" onclick="window.open('store.html#desinfection','_top' ); return false;">Dezinfekční prostředky</a>
-            <a class="subcategory" onclick="window.open('store.html#combination','_top' ); return false;">Kombinované přípravky</a>
-            <a class="subcategory" onclick="window.open('store.html#caring','_top' ); return false;">Ošetřující prostředky</a>
-            <a class="subcategory" onclick="window.open('store.html#special','_top' ); return false;">Speciální prostředky</a>
-            <a class="subcategory" onclick="window.open('contracting.html','_top' ); return false;">Výroba na zakázku</a>
-            <a onclick="downFunction(); myFunction(); toggleHamburger();" id="myBtnDowm">Kontakty</a>
-          </div>
-          <div class="lang-selector-mobile">
-            <a style="font-weight: bold;" class="cz">CZ</a>
-            <a class="de">DE</a>
-            <a class="en">EN</a>
-            <a class="ua">UA</a>
+            <a onclick="topFunction(); myFunction(); toggleHamburger();" id="myBtnUp">ÚVOD</a>
+            <a onclick="window.open('index.html#ourservices','_top' ); return false;">NAŠE SLUŽBY</a>
+            <a onclick="window.open('index.html#price','_top' ); return false;">CENÍK</a>
+            <a onclick="window.open('index.html#order','_top' ); return false;">OBJEDNAT ÚKLID</a>
+            <a onclick="downFunction(); myFunction(); toggleHamburger();" id="myBtnDowm">KONTAKTY</a>
           </div>
         </div>
         <div class="mobile-menu-btn">
@@ -59,161 +49,236 @@
     </div>
     <div class="aboutus">
         <div class="aboutus-container">
-          <video loop autoplay muted>
-            <source src="img/sweep.mp4" type="video/mp4">
-          </video>
-          <p class="part1">ČISTÁ PROSTORY</p>
-          <p class="part2">s Urobto s.r.o.</p>
-        </div>
-    </div>
-    <div class="contracting">
-      <div class="contracting-title">
-        <p>NAŠE SLUŽBY</p>
-      </div>
-      <div class="contracting-container">
-         <img src="img/bigsweeper.jpg"> 
-         <div class="contracting-container-text">
-          <p>Hledáte spolehlivého partnera pro výrobu detergentů a dezinfekcí? Potřebujete specifické složení nebo balení pro vaše čisticí a dezinfekční prostředky?</p> 
-          <p>My Vám to zajistíme! Jsme Váš zkušený výrobce na zakázku. Nabízíme flexibilní smluvní výrobu, přizpůsobenou Vašim individuálním požadavkům. Od vývoje po finální produkt, jsme tu pro Vás.
-          </p>
-          <p> Vysoce kvalitní čisticí a dezinfekční prostředky přesně podle Vašich potřeb. 
-          </p>
-          <p>
-            Donite s.r.o. - Váš partner pro čistotu a hygienu.            
-            Svěřte nám svou výrobu a získejte produkty s garancí kvality a efektivity. Kontaktujte nás pro nezávaznou konzultaci!
-          </p>
+          <div class="aboutus-container-video">
+            <video loop autoplay muted>
+              <source src="img/sweep.mp4" type="video/mp4">
+            </video>
+            <p class="aboutus-container-video-text-part1">ČISTÉ PROSTORY S NAŠÍ SPOLEČNOSTÍ</p>
+            <p class="aboutus-container-video-text-part2">Efektivní odstraňování různých druhů nečistot (prach, špína, štěrk, listí atd.)</p>
           </div>
-          
+          <div class="aboutus-container-slider">
+            <div class="aboutus-container-slider-image" id="slideOne">
+              <p>Na prvním dojmu záleží: čistota zvyšuje obraz a profesionalitu vašeho zařízení</p>
+            </div>
+            <div class="aboutus-container-slider-image" id="slideTwo">
+              <p>Bezpečnost především: odstranění úlomků a nebezpečí snižuje riziko nehod</p>
+            </div>
+            <div class="aboutus-container-slider-image" id="slideThree">
+              <p>Zdraví a pohoda: čisté životní prostředí přispívá ke zdravějšímu a produktivnějšímu ovzduší</p>
+            </div>
+            <div class="aboutus-container-slider-image" id="slideFour">
+              <p>Údržba a dlouhá životnost: pravidelné zametání zabraňuje usazování špíny, chrání povrchy a snižuje dlouhodobé náklady na údržbu</p>
+            </div>
+            <div class="aboutus-container-slider-image" id="slideFive">
+              <p>Odpovědnost k životnímu prostředí: správné nakládání s odpady a úlomky prokazuje váš závazek k udržitelnosti</p>
+            </div>
+      </div>
+    </div>
+  </div>
+  <div class="contracting">
+      <div class="contracting-container">
+         <div class="contracting-title">
+          <p id="ourServicesTitle">NAŠE SLUŽBY</p>
+        </div>
+        <a class="our-services-anchor" id="ourservices">Our services anchor</a>
+        <div class="contracting-container-section">
+          <img src="img/sweeping.jpg"> 
+          <div class="contracting-container-text">
+            <p>&#10097; Poskytujeme kvalitní řešení úklidu velkých veřejných, komerčních a průmyslových prostor:</p>
+            <p>- parkoviště a garáže</p>
+            <p>- sklady a distribuční centra</p>
+            <p>- průmyslové objekty</p>
+            <p>- obchodní centra</p>
+            <p>- místa konání akcí atd.</p>
+            <p>&#10097; Rychlé čištění, minimalizující narušení vašich operací
+          </div>
+        </div>
+        <div class="contracting-container-section">
+          <div class="contracting-container-text" id="section2">
+            <p>&#10097; Používáme moderní a výkonné zařízení, které poskytují skvělé, rychlé a zároveň šetrné čištění: různé typy zametacích strojů s odsáváním a vysokotlaké čističe firmy KÄRCHER</p>
+            <p>&#10097; Pro stísněné prostory a těžko dostupná místa používáme kompaktní zametací stroje, vysavače a ruční nářadí</p>
+          </div>
+          <img id="equipment" src="img/equipment.png"> 
+        </div>
+        <div class="contracting-container-section">
+          <img src="img/planing3.jpg"> 
+          <div class="contracting-container-text">
+            <p>&#10097; Zavázali jsme se ke spokojenosti zákazníků</p>
+            <p>&#10097; Jsme flexibilní a máme širokou škálu nabídek:</p>
+            <p>- pravidelně plánované zametací služby</p>
+            <p>- jednorázové hloubkové čištění</p>
+            <p>- pohotovostní úklidové služby</p>
+            <p>- přizpůsobené plány čištění pro splnění specifických požadavků</p>
+          </div>
+        </div>
       </div>
   </div>
-  <div class="contracting-form">
-    <div class="contracting-form-title">
-      <p>OBJEDNAT ÚKLID</p>
+  <div class="contracting">
+    <div class="contracting-container">
+       <div class="contracting-title">
+        <p id="ourServicesTitle">CENÍK</p>
+      </div>
+      <a class="our-services-anchor" id="ourservices">Our services anchor</a>
+      <div class="contracting-container-section"> 
+        <div class="contracting-container-text">
+          <p>&#10097; Cena strojového zametání se snadno vypočítá podle plochy:</p>
+          <div class="contracting-container-text-price">
+            <a class="price-anchor" id="price">Price anchor</a>
+            <p>Do 500 m&#178;</p>
+            <p>5 Kč/m&#178;</p>
+            <p>501-1'000 m&#178;</p>
+            <p>4 Kč/m&#178;</p>
+            <p>1'001-3'000 m&#178;</p>               
+            <p>3 Kč/m&#178;</p>
+            <p>3001-5'000 m&#178;</p> 
+            <p>2 Kč/m&#178;</p>
+            <p>5'001-10'000 m&#178;</p>
+            <p>1 kč/m&#178;</p>
+            <p>Nad 10'000 m&#178;</p>
+            <p>0.80 Kč/m&#178;</p>
+          </div>
+        </div>
+        <img id="hawkeye" src="img/hawkeyeview.jpg"> 
+      </div>
+      <div class="contracting-container-section"> 
+        <img src="img/planing.jpg">
+        <div class="contracting-container-text">
+          <p>&#10097; Sazby ručního zametání a čištění:</p>
+          <div class="contracting-container-text-price">
+            <p>Do 4 hod.</p>
+            <p>400 Kč/hod.</p>
+            <p>Nad 4 hod.</p>
+            <p>350 Kč/hod.</p>
+          </div>
+          <p id="emergency">&#10097; Příjezd na pohotovostní úklid:</p>
+          <div class="contracting-container-text-price">
+            <p>Do 12 hod.</p>
+            <p>5'000 Kč</p>
+            <p>Do 24 hod.</p>
+            <p>2'500 Kč</p>
+          </div>
+          <p id="vat">*Všechny ceny uvedeny bez DPH</p>
+
+        </div>
+      </div>
+      <div class="contracting-container-section"> 
+        <div class="contracting-container-text">
+          <p>&#10097; Garantujeme férovou cenu našich služeb bez dodatečných nákladů nebo skrytých poplatků</p>
+          <p>&#10097; Všechny detaily úklidové akce mate dopředu ve smlouvě, můžete si být klidní, že práce bude provedena dle dohodnutých podmínek</p>
+          <p>&#10097; Jsme pojištěni, nemusíte se obávat neúmyslného poškození majetku během akce</p>
+        </div>
+        <img src="img/handshake.jpg">
+      </div>
     </div>
-
-
-    <div class="contracting-form-container">
-
-
+</div>
+<div class="contracting" id="orderdiv">
+  <div class="contracting-container">
+     <div class="contracting-title">
+      <p id="ourServicesTitle">OBJEDNAT ÚKLID</p>
+    </div>
+    <a class="order-anchor" id="order">Order</a>
+    <div class="contracting-form">
+      <div class="contracting-form-container">
+        <p>Jste připraveni na čistší a bezpečnější prostor? Kontaktujte nás ještě dnes!</p>
       <form class="form" id="form" method="POST" action="send-email.php">
-        
-        
-        
         <div class="form-fields" id="name">
           <label for="name">Jméno</label>
           <input type="text" name="name" id="name" required>        
         </div>
-
-
         <div class="form-fields" id="surname">
           <label for="surname">Příjmení</label>
           <input type="text" name="surname" id="surname" required>
         </div>
-
-
         <div class="form-fields" id="company">
           <label for="surname">Společnost</label>
           <input type="text" name="company" id="company" required>
         </div>  
-
-
         <div class="form-fields" id="email">
           <label for="email">E-mail</label>
           <input type="email" name="email" id="email" placeholder="např. mail@adress.com" required>
         </div> 
-
-
         <div class="form-fields" id="phone">
           <label for="phone">Telefonní číslo</label>           
           <input id="phone" type="tel" name="phone" placeholder="např. +420 111 222 333"
           maxlength="16" required>
           <p>Uveďte kód země pro mezinárodní hovory</p>
         </div>
-
-
-        <div class="form-fields" id="message">
-          <label for="message">Jak Vám můžeme pomoct? </label>
-          <textarea name="message" id="message" required></textarea>      
+        <div class="form-fields" id="adress">
+          <label for="adress">Adresa objektů</label>
+          <input type="text" name="adress" id="adress" required>
         </div>
-
-
+        <div class="form-fields" id="area">
+          <label for="area">Přibližná plocha</label>
+          <input type="text" name="surname" id="surname" placeholder="m&#178;" required>
+        </div>
+        <div class="form-fields" id="description">
+          <label for="description">Popis objektů</label>
+          <input type="text" name="description" id="description" required>
+        </div>
+        <div class="form-fields" id="radio">
+          <input type="radio" id="radio" name="fav_language" value="HTML" checked>
+          <label for="html">Běžnéhý úklid</label><br>
+          <input type="radio" id="radio" name="fav_language" value="CSS">
+          <label for="css">Pohotovostní úklid s příjezdem do 12 hod.</label><br>
+          <input type="radio" id="radio" name="fav_language" value="JavaScript">
+          <label for="javascript">Pohotovostní úklid s příjezdem do 24 hod.</label>
+        </div>
         <div class="form-fields" id="checkbox">
           <input type="checkbox" name="checkbox" required>
           <label for="checkbox">Souhlas se zpracováním <a href="privacypolicy.html" target="_blank">osobních údajů</a></label>
         </div>
-
-
-        <input class="form-fields" type="submit" id="submit" name="send" value="Odeslat">
-
-
-
-
+        <input class="form-fields" type="submit" id="submit" name="send" value="Odeslat poptávku">
       </form>
     </div>
+  </div>
+  </div>
 </div>
-
-    <div class="footer">
-      <div class="footer-content">
-          <div class="details-title">
-            <h2>Donite s.r.o.</h2>
+<div class="footer">
+  <div class="footer-content">
+      <div class="details-title">
+        <h2>Urobto s.r.o.</h2>
+      </div>
+      <div class="details-text">
+        <a href="tel.:+420775280578">tel.: +420 775 280 578</a>
+        <a href="mailto:info@urobto.cz">email: info@urobto.cz</a>
+        <p>IČO: 04215192</p>
+        <p>DIČ: CZ04215192</p>
+        <p>Alejní 698</p>
+        <p>417 42 Krupka</p>
+        <p>Česká republika</p>
+        <div class="qr-container">
+          <div class="qr-field" onclick="window.open('/urobto.vcf','_top' ); return false;">
+            <img class="click" src="img/click.jpg">
+            <img class="qr" src="img/qr.png">
           </div>
-          <div class="details-text">
-            <a href="tel:+420703330703">tel.: +420 703 330 703</a>
-            <a href="mailto:info@donite.cz">email: info@donite.cz</a>
-            <p>IČO: 07081235</p>
-            <p>DIČ: CZ07081235</p>
-            <p>Haškova 420</p>
-            <p>415 10 Teplice</p>
-            <p>Česká republika</p>
-            <div class="qr-container">
-              <div class="qr-field" onclick="window.open('/donite.vcf','_top' ); return false;">
-                <p>Scan or tap</p>
-                <img class="qr" src="img/qr.svg">
-              </div>
-              <div class="qr-field">
-              </div>
-              <p>Přidat do kontaktů</p>
-            </div>
+          <div class="qr-field">
           </div>
-          <div class="operating-hours-title">
-            <h2>Provozní doba</h2>
-          </div>
-          <div class="operating-hours-text">
-            <p>Po.: 08:00–16:00</p>
-            <p>Út.: 08:00–16:00</p>
-            <p>St.: 08:00–16:00</p>
-            <p>Čt.: 08:00–16:00</p>
-            <p>Pá.: 08:00–16:00</p>
-            <p>So.: zavřeno</p>
-            <p>Ne.: zavřeno</p>
-            <div class="abas-container">
-              <img class="abas-logo" onclick="window.open('http://www.abascr.cz/'); return false;" src="img/abas.png">
-              <p>Jsme členové</p>
-            </div>
-          </div>
-          <div class="links-title">
-            <h2>Odkazy</h2>
-          </div>
-          <div class="links-text">
-            <a>Obchodní podmínky</a>
-            <a>Doprava a platby</a>
-            <a>Reklamace a vrácení zboží</a>
-            <a>Ochrana osobních údajů</a>
-            <a>Mapa stránek</a>
-            <div class="payments-container">
-              <img id="p5" src="img/applepay.svg">              
-              <img id="p4" src="img/googlepay.svg">              
-              <img id="p3" src="img/mastercard.svg">              
-              <img id="p2" src="img/visa.svg">
-              <img id="p1" src="img/bankpay2.png">
-            </div>
-          </div>
-        <div class="copyright">
-          <p>© 2025 Donite s.r.o.</p>
+          <p>Přidat do kontaktů</p>
         </div>
       </div>
+      <div class="operating-hours-title">
+        <h2>Provozní doba</h2>
+      </div>
+      <div class="operating-hours-text">
+        <p>Po.-Pá.: 08:00-16:00</p>
+        <p>So.-Ne.: po dohodě</p>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.122019849087!2d13.827048876415715!3d50.643424971629635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47098e8c9ca0bb7d%3A0xfebc7387e52f3d83!2sDonite!5e0!3m2!1sen!2scz!4v1742905120263!5m2!1sen!2scz" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="links-title">
+        <h2>Odkazy</h2>
+      </div>
+      <div class="links-text">
+        <a>Obchodní podmínky</a>
+        <a>Ochrana osobních údajů</a>
+        <a>Pojištění odpovědnosti</a>
+        <a>Mapa stránek</a>
+      </div>
+    <div class="copyright">
+      <p>© 2025 Urobto s.r.o.</p>
     </div>
-    <button onclick="topFunction()" id="upBtn">&#10094;</button>
+  </div>
+</div>
+<button onclick="topFunction()" id="upBtn">&#10094;</button>
   <script>
     let mybuttonup = document.getElementById("myBtnUp");
     function topFunction() {
@@ -251,6 +316,19 @@
     function topFunction() {
       document.body.scrollTop = 0; 
       document.documentElement.scrollTop = 0;
+    }
+    slideIndex = 0;
+    showSlides();
+    function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("aboutus-container-slider-image");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.opacity = "0";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1};
+    slides[slideIndex-1].style.opacity = "1";  
+    setTimeout(showSlides, 5000);
     }
   </script>
   </body>
