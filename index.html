@@ -32,9 +32,9 @@
         <div class="menu-lang-mobile" id="menuLang">
           <div class="menu-section-mobile">
             <a onclick="topFunction(); myFunction(); toggleHamburger();" id="myBtnUp">ÚVOD</a>
-            <a onclick="window.open('index.html#ourservices','_top' ); return false;">NAŠE SLUŽBY</a>
-            <a onclick="window.open('index.html#price','_top' ); return false;">CENÍK</a>
-            <a onclick="window.open('index.html#order','_top' ); return false;">OBJEDNAT ÚKLID</a>
+            <a onclick="myFunction(); toggleHamburger(); window.open('index.html#ourservices','_top' ); return false;">NAŠE SLUŽBY</a>
+            <a onclick="myFunction(); toggleHamburger(); window.open('index.html#price','_top' ); return false;">CENÍK</a>
+            <a onclick="myFunction(); toggleHamburger(); window.open('index.html#order','_top' ); return false;">OBJEDNAT ÚKLID</a>
             <a onclick="downFunction(); myFunction(); toggleHamburger();" id="myBtnDowm">KONTAKTY</a>
           </div>
         </div>
@@ -213,7 +213,7 @@
         </div>
         <div class="form-fields" id="description">
           <label for="description">Popis objektů</label>
-          <input type="text" name="description" id="description" required>
+          <textarea name="description" id="description" required></textarea>
         </div>
         <div class="form-fields" id="radio">
           <input type="radio" id="radio" name="fav_language" value="HTML" checked>
