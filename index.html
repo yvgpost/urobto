@@ -35,7 +35,7 @@
             <a onclick="myFunction(); toggleHamburger(); window.open('index.html#ourservices','_top' ); return false;">NAŠE SLUŽBY</a>
             <a onclick="myFunction(); toggleHamburger(); window.open('index.html#price','_top' ); return false;">CENÍK</a>
             <a onclick="myFunction(); toggleHamburger(); window.open('index.html#order','_top' ); return false;">OBJEDNAT ÚKLID</a>
-            <a onclick="downFunction(); myFunction(); toggleHamburger();" id="myBtnDowm">KONTAKTY</a>
+            <a onclick="myFunction(); toggleHamburger(); window.open('index.html#contacts','_top' ); return false;" id="myBtnDowm">KONTAKTY</a>
           </div>
         </div>
         <div class="mobile-menu-btn">
@@ -237,9 +237,11 @@
   <div class="footer-content">
       <div class="details-title">
         <h2>Urobto s.r.o.</h2>
+        <a class="contacts-anchor" id="contacts">Our services anchor</a>
+
       </div>
       <div class="details-text">
-        <a href="tel.:+420775280578">tel.: +420 775 280 578</a>
+        <a href="tel:+420775280578">tel.: +420 775 280 578</a>
         <a href="mailto:info@urobto.cz">email: info@urobto.cz</a>
         <p>IČO: 04215192</p>
         <p>DIČ: CZ04215192</p>
@@ -278,6 +280,15 @@
     </div>
   </div>
 </div>
+<div class="popup">
+  <div class="popup-container">
+    <img src="img/sweep.jpg"> 
+    <h3>Děkujeme!</h3>
+    <P>Vaše objednávka byla odeslána!</P>
+    <button>Zavřít</button>
+  </div>
+</div>
+
 <button onclick="topFunction()" id="upBtn">&#10094;</button>
   <script>
     let mybuttonup = document.getElementById("myBtnUp");
